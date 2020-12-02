@@ -1,0 +1,35 @@
+using System;
+class random
+{
+    public static void Main()
+    {
+        
+        Random rand = new Random();
+        int[] Array = new int[50];
+
+        for(int i = 0; i < Array.Length; i++)
+        {
+            Array[i] = rand.Next(100);
+        }
+
+        Console.WriteLine("検索したい数： ");
+        int m = int.Parse(Console.ReadLine());
+        
+
+        for (int j = 0; j < Array.Length;j++)
+        {
+            if (Array[j] == m)
+            {
+                Console.WriteLine("ありました{0}", j);
+                break;
+            }
+            
+            else
+            {
+                Console.WriteLine("{0}", -1);
+                break;
+            }
+        }
+
+    }
+}
