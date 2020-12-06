@@ -1,0 +1,129 @@
+{
+    "nodes" : {
+	"node": {
+	    "id": "node1", "node_type": "question", "content": "Q:どんな研究ですか？"
+	},
+	"node": {
+	    "id": "node2", "node_type": "question", "content": "Q:研究背景はなんですか？"
+	},
+	"node": {
+	    "id": "node3", "node_type": "question", "content": "Q:研究目的はなんですか？"
+	},
+	"node": {
+	    "id": "node4", "node_type": "question", "content": "Q:研究方法はなんですか？"
+	},
+	"node": {
+	    "id": "node5", "node_type": "question", "content": "Q:実験方法はなんですか？"
+	},
+	"node": {
+	    "id": "node6", "node_type": "answer", "content": "A:深い学びが大事"
+	},
+	"node": {
+	    "id": "node7", "node_type": "question", "content": "なぜそう考えるのですか？"
+	},
+	"node": {
+	    "id": "node8", "node_type": "answer", "content": "表層的な学びだと別のことを学ぶときに１から学び直さないといけない"
+	},
+	"node": {
+	    "id": "node9", "node_type": "answer", "content": "テストだけできて実践に適用できない知識になりがち"
+	},
+	"node": {
+	    "id": "node10", "node_type": "answer", "content": "A:深い学びを促す学習支援システムを作る"
+	},
+	"node": {
+	    "id": "node11", "node_type": "answer", "content": "A:学び方について考えさせる仕組みを実現する"
+	},
+	"node": {
+	    "id": "node12", "node_type": "question", "content": "Q:学習デザインはどんなものですか？"
+	},
+	"node": {
+	    "id": "node13", "node_type": "answer", "content": "A:プレゼンを設計する課題"
+	},
+	"node": {
+	    "id": "node14", "node_type": "answer", "content": "A:他人のプレゼンを評価する課題"
+	},
+	"node": {
+	    "id": "node15", "node_type": "question", "content": "Q:より具体的にはどんな課題ですか？"
+	},
+	"node": {
+	    "id": "node16", "node_type": "question", "content": "Q:より具体的にはどんな課題ですか？"
+	},
+	"node": {
+	    "id": "node17", "node_type": "answer", "content": "A:見栄え以外の５項目で点数を付ける"
+	},
+	"node": {
+	    "id": "node18", "node_type": "answer", "content": "A:評価基準１・「プレゼンの主題は一貫しているか」"
+	},
+	"node": {
+	    "id": "node19", "node_type": "answer", "content": "A:評価基準２・「具体例は出せているか」"
+	},
+	"node": {
+	    "id": "node20", "node_type": "answer", "content": "A:評価基準３・「対象知識のLimitationを述べられているか」"
+	},
+	"node": {
+	    "id": "node21", "node_type": "question", "content": "Q:具体的にはどんな機能を持ったシステムを作る研究ですか？"
+	}
+    },
+    "edges" : {
+    	"edge": {
+	    "id": "edge1", "from_node_id": "node1", "to_node_id": "node2"
+	},
+	"edge": {
+	    "id": "edge2", "from_node_id": "node1", "to_node_id": "node3"
+	},
+	"edge": {
+	    "id": "edge3", "from_node_id": "node1", "to_node_id": "node4"
+	},
+	"edge": {
+	    "id": "edge4", "from_node_id": "node1", "to_node_id": "node5"
+	},
+	"edge": {
+	    "id": "edge5", "from_node_id": "node2", "to_node_id": "node6"
+	},
+	"edge": {
+	    "id": "edge6", "from_node_id": "node6", "to_node_id": "node7"
+	},
+	"edge": {
+	    "id": "edge7", "from_node_id": "node7", "to_node_id": "node8"
+	},
+	"edge": {
+	    "id": "edge8", "from_node_id": "node7", "to_node_id": "node9"
+	},
+	"edge": {
+	    "id": "edge9", "from_node_id": "node3", "to_node_id": "node10"
+	},
+	"edge": {
+	    "id": "edge10", "from_node_id": "node4", "to_node_id": "node11"
+	},
+	"edge": {
+	    "id": "edge11", "from_node_id": "node4", "to_node_id": "node12"
+	},
+	"edge": {
+	    "id": "edge12", "from_node_id": "node4", "to_node_id": "node21"
+	},
+	"edge": {
+	    "id": "edge13", "from_node_id": "node12", "to_node_id": "node13"
+	},
+	"edge": {
+	    "id": "edge14", "from_node_id": "node12", "to_node_id": "node14"
+	},
+	"edge": {
+	    "id": "edge15", "from_node_id": "node13", "to_node_id": "node15"
+	},
+	"edge": {
+	    "id": "edge16", "from_node_id": "node14", "to_node_id": "node16"
+	},
+	"edge": {
+	    "id": "edge17", "from_node_id": "node16", "to_node_id": "node17"
+	},
+	"edge": {
+	    "id": "edge18", "from_node_id": "node16", "to_node_id": "node18"
+	},
+	"edge": {
+	    "id": "edge19", "from_node_id": "node16", "to_node_id": "node19"
+	},
+	"edge": {
+	    "id": "edge20", "from_node_id": "node16", "to_node_id": "node20"
+	}
+    }
+}
